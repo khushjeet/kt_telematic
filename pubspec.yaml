@@ -1,0 +1,55 @@
+name: ktr
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_map: ^6.1.0
+  flutter_riverpod: ^2.4.9
+  image_picker: ^1.0.7
+  location: ^5.0.3
+  latlong2: ^0.9.0
+  path: ^1.8.3
+  sqflite: ^2.3.0
+  uuid: ^4.3.3
+  geocoding: ^2.1.1
+  path_provider: ^2.1.2
+  google_maps_flutter: ^2.5.3
+  geolocator: ^10.1.0
+  flutter_launcher_icons: ^0.13.1
+
+
+  flutter_polyline_points: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/kt.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
