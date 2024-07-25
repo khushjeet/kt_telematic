@@ -39,7 +39,7 @@ class User {
       'title': title,
       'userEmail': userEmail,
       'userName': userName,
-      'userId': userId
+      'userId': userId,
     };
   }
 }
